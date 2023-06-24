@@ -16,19 +16,25 @@ body {
 
 /* Frames for the background gradient wave effect */
 @-webkit-keyframes gradientWave {
-  0%    {background-position: 0% 50%}
-  50%   {background-position: 100% 50%}
-  100%  {background-position: 0% 50%}
+  0%    {background-position: 100% 25%}
+  25%   {background-position: 50% 75%}
+  50%   {background-position: 0% 25%}
+  75%   {background-position: 50% 75%}
+  100%  {background-position: 100% 25%}
 }
 @-moz-keyframes gradientWave {
-  0%    {background-position: 0% 50%}
-  50%   {background-position: 100% 50%}
-  100%  {background-position: 0% 50%}
+  0%    {background-position: 100% 25%}
+  25%   {background-position: 50% 75%}
+  50%   {background-position: 0% 25%}
+  75%   {background-position: 50% 75%}
+  100%  {background-position: 100% 25%}
 }
 @keyframes gradientWave {
-  0%    {background-position: 0% 50%}
-  50%   {background-position: 100% 50%}
-  100%  {background-position: 0% 50%}
+  0%    {background-position: 100% 25%}
+  25%   {background-position: 50% 75%}
+  50%   {background-position: 0% 25%}
+  75%   {background-position: 50% 75%}
+  100%  {background-position: 100% 25%}
 }
 
 /* COPY */
@@ -56,6 +62,7 @@ body {
 .splash__intro h1 {
   color: #5A7AB5;
   background: -webkit-linear-gradient(#5A7AB5, #8095C2);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 3rem;
