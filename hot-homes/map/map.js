@@ -36,7 +36,7 @@ var southWest = L.latLng(51.47, -0.11),
 northEast = L.latLng(51.5, -0.03),
 bounds = L.latLngBounds(southWest, northEast);
 
-map.setView([51.48, -0.07], 13.5).setMaxBounds(bounds);
+map.setView([51.48, -0.076], 14).setMaxBounds(bounds);
 
 // ------ ADD MAP TILES ------
 OpenStreetMap_Mapnik.addTo(map);
