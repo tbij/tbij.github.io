@@ -4,9 +4,9 @@ body {
   height: 100vh;
   background: linear-gradient(132deg, #9C2E2B 0%, #917393 100%);
   background-size: 200% 200%;
-  -webkit-animation: gradientWave 20s ease infinite;
-  -moz-animation: gradientWave 20s ease infinite;
-  animation: gradientWave 20s ease infinite;
+  -webkit-animation: gradientWave 10s ease infinite;
+  -moz-animation: gradientWave 10s ease infinite;
+  animation: gradientWave 10s ease infinite;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -16,25 +16,25 @@ body {
 
 /* Frames for the background gradient wave effect */
 @-webkit-keyframes gradientWave {
-  0%    {background-position: 100% 25%}
-  25%   {background-position: 50% 75%}
-  50%   {background-position: 0% 25%}
-  75%   {background-position: 50% 75%}
-  100%  {background-position: 100% 25%}
+  0%    {background-position: 100% 0%}
+  25%   {background-position: 70% 50%}
+  50%   {background-position: 40% 0%}
+  75%   {background-position: 70% 50%}
+  100%  {background-position: 100% 0%}
 }
 @-moz-keyframes gradientWave {
-  0%    {background-position: 100% 25%}
-  25%   {background-position: 50% 75%}
-  50%   {background-position: 0% 25%}
-  75%   {background-position: 50% 75%}
-  100%  {background-position: 100% 25%}
+  0%    {background-position: 100% 0%}
+  25%   {background-position: 70% 50%}
+  50%   {background-position: 40% 0%}
+  75%   {background-position: 70% 50%}
+  100%  {background-position: 100% 0%}
 }
 @keyframes gradientWave {
-  0%    {background-position: 100% 25%}
-  25%   {background-position: 50% 75%}
-  50%   {background-position: 0% 25%}
-  75%   {background-position: 50% 75%}
-  100%  {background-position: 100% 25%}
+  0%    {background-position: 100% 0%}
+  25%   {background-position: 70% 50%}
+  50%   {background-position: 40% 0%}
+  75%   {background-position: 70% 50%}
+  100%  {background-position: 100% 0%}
 }
 
 /* COPY */
