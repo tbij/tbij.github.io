@@ -16,37 +16,37 @@ body {
 
 /* Frames for the background gradient wave effect */
 @-webkit-keyframes gradientWave {
-  0%    {background-position: 100% 25%} 
-  12.5% {background-position: 87.5% 75%}
-  25%   {background-position: 75% 25%}
-  37.5% {background-position: 62.5% 75%}
-  50%   {background-position: 50% 25%}
-  62.5%   {background-position: 62.5% 75%}
-  75%   {background-position: 75% 25%}
-  87.5%   {background-position: 87.5% 75%}
-  100%  {background-position: 100% 25%}
+  0%    {background-position: 100% 20%} 
+  12.5% {background-position: 87.5% 70%}
+  25%   {background-position: 75% 20%}
+  37.5% {background-position: 62.5% 70%}
+  50%   {background-position: 50% 20%}
+  62.5%   {background-position: 62.5% 70%}
+  75%   {background-position: 75% 20%}
+  87.5%   {background-position: 87.5% 70%}
+  100%  {background-position: 100% 20%}
 }
 @-moz-keyframes gradientWave {
-  0%    {background-position: 100% 25%} 
-  12.5% {background-position: 87.5% 75%}
-  25%   {background-position: 75% 25%}
-  37.5% {background-position: 62.5% 75%}
-  50%   {background-position: 50% 25%}
-  62.5%   {background-position: 62.5% 75%}
-  75%   {background-position: 75% 25%}
-  87.5%   {background-position: 87.5% 75%}
-  100%  {background-position: 100% 25%}
+  0%    {background-position: 100% 20%} 
+  12.5% {background-position: 87.5% 70%}
+  25%   {background-position: 75% 20%}
+  37.5% {background-position: 62.5% 70%}
+  50%   {background-position: 50% 20%}
+  62.5%   {background-position: 62.5% 70%}
+  75%   {background-position: 75% 20%}
+  87.5%   {background-position: 87.5% 70%}
+  100%  {background-position: 100% 20%}
 }
 @keyframes gradientWave {
-  0%    {background-position: 100% 25%} 
-  12.5% {background-position: 87.5% 75%}
-  25%   {background-position: 75% 25%}
-  37.5% {background-position: 62.5% 75%}
-  50%   {background-position: 50% 25%}
-  62.5%   {background-position: 62.5% 75%}
-  75%   {background-position: 75% 25%}
-  87.5%   {background-position: 87.5% 75%}
-  100%  {background-position: 100% 25%}
+  0%    {background-position: 100% 20%} 
+  12.5% {background-position: 87.5% 70%}
+  25%   {background-position: 75% 20%}
+  37.5% {background-position: 62.5% 70%}
+  50%   {background-position: 50% 20%}
+  62.5%   {background-position: 62.5% 70%}
+  75%   {background-position: 75% 20%}
+  87.5%   {background-position: 87.5% 70%}
+  100%  {background-position: 100% 20%}
 }
 
 /* COPY */
